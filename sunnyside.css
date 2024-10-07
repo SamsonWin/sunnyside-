@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(/images/desktop/image-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 8vw;
+    padding-top: 20px;
+    align-items: center;
+}
+
+nav h1 {
+    color: #fff;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li .contact {
+    
+}
+
+
+nav ul li .contact a {
+   color: #000;
+}
+
+nav ul li .contact a:hover {
+   background-color: rgba(255, 255, 255, 0.3);
+   color: #3b0303;
+}
+
+header h1.title {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Fraunces", serif;
+    padding-top: 7rem;
+    letter-spacing: 10px;
+}
+
+header .arrow {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+header .arrow img {
+    width: 20px;
+    height: 100px;
+}
+
+
+
+
+/* Styling for the section */
+section .first {
+    display: flex;
+    width: 100%;
+}
+
+section .transform {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 40vh;
+    text-align: left;
+    margin-left: 90px;
+    padding-bottom: 50px;
+}
+
+section .transform h1 {
+    font-family: "Fraunces", serif;
+    font-size: 40px;
+}
+
+section .transform p {
+    color: hsl(232, 10%, 55%);
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+section .first .egg {
+    background-image: url(/images/desktop/image-transform.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 50%;
+    
+}
